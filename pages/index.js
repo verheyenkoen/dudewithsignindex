@@ -1,6 +1,12 @@
+import Head from 'next/head'
+
 export default function Home() {
   return (
-    <div>
+    <>
+      <Head>
+        <title>@dudewithsign index</title>
+      </Head>
+
       <main>
         <h1>
           Welcome to the <a href="https://twitter.com/dudewithsign">@dudewithsign</a> index
@@ -11,6 +17,6 @@ export default function Home() {
         <hr />
         <div>WTF needs a copyright?</div>
       </footer>
-    </div>
+    </>
   )
 }

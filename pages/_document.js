@@ -7,8 +7,6 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>@dudewithsign index</title>
-
           <meta name="description" content="An index of @dudewithsign tweets" />
 
           <link rel="icon" href="/favicon.ico" />
