@@ -8,15 +8,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>
+        <h1 className="title">
           Welcome to the <a href="https://twitter.com/dudewithsign">@dudewithsign</a> index
         </h1>
+        <h3 className="subtitle">I've indexed some of his tweets for your and my benefit.</h3>
       </main>
-
-      <footer>
-        <hr />
-        <div>WTF needs a copyright?</div>
-      </footer>
     </>
   )
 }
